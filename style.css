@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+.btn-donate,.btn-sponsor{
+    background-color: #0D6DB7;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 2px;
+}
+.btn-sponsor{
+    background-color: #8DC63F;
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 15%;
+    margin-top: 50px;
+    margin-right: 16px;
+    height: 150px;
+    background-color:#F0FCDB;
+    border-radius: 10px;
+    
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    opacity: 0.8;
+    
+}
+
+.donate{
+    position: absolute;
+    outline: none;
+    bottom: 2px;
+    left: 15px;
+    width: 90%;
+    padding: 9px 10px;
+    border-radius: 5px;
+    background-color: #8DC63F;
+    color: white;
+}
+.btn-banner{
+    padding: 15px 40px;
+    background-color: #fff;
+    color:#424242;
+}
+.footer{
+    background-color:#424242;
+    color: white;
+    padding: 20px;
+    
+}
+.links li{
+    line-height: 35px;
+}
+
+
+@media only screen and (min-width:769px) and (max-width:992px){
+    .one{
+        width: 31%;
+        margin: 4px auto;
+    }
+    .banner img{
+        display: none;
+    }
+    .work-head{
+        margin-top: 30px;
+    }
+    footer{
+        width: 31%;
+        height: 100vh;
+    }
+    
+
+}
+@media only screen and (min-width:577px) and (max-width:768px){
+    .one{
+        width: 31%;
+        margin: 4px auto;
+    }
+    .banner img{
+        display: none;
+    }
+    .work-head{
+        margin-top: 30px;
+    }
+    footer{
+        width: 31%;
+    }
+    .footer img{
+        width: 300px;
+    }
+   
+    
+   
+
+}
+@media only screen and (min-width:10px) and (max-width:576px){
+    .banner img{
+        display: none;
+    }
+    .work-head{
+        margin-top: 30px;
+    }
+    .one{
+        width: 94%;
+        margin:4px auto;
+         padding: 10px;
+       
+    }
+    .footer{
+        width: 94%;
+    }
+    .links{
+        margin-top: 5%;
+    }
+    .footer img{
+        width: 100%;
+    }
+   
+    
+   
+    
+    
+
+}
+
+
